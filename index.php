@@ -10,18 +10,18 @@
 <body>
   <h3>Адресная книга:</h3>
 
-<div class='headerblock'>
-  <div id="search">
-    <div class="btn" id="add">Добавить контакт</div>
-    <input type="text" size="20" id="inputValue">
-    <div class="btn" id='inputSearch'>Найти</div>
-    <div class="clear o-hide" id="x">X</div>
+  <div class='headerblock'>
+    <div id="search">
+      <div class="btn" id="add">Добавить контакт</div>
+      <input type="text" size="20" id="inputValue">
+      <div class="btn" id='inputSearch'>Найти</div>
+      <div class="clear o-hide" id="x">X</div>
+    </div>
   </div>
-</div>
 
-<div id='users' class='users'><?php echo 'Hello, world!'</div>
+  <div id='users' class='users'></div>
 
-<script language="javascript" src="addressBook.js" type="text/javascript"></script>
+  <script language="javascript" src="addressBook.js" type="text/javascript"></script>
 
 </body>
 </html>

@@ -1,4 +1,10 @@
+<?php 
+  echo 'Hello, world!';
+  echo 'Hello, git';
+?>
+
 <script>
+// это (код php выше) для тренировок по гиту, не более
   function decToHex(n) {
     return Number(n).toString(16);
   }
@@ -95,11 +101,11 @@
   }
 
   // Сделать другой вариант с использованием map Object.keys(obj) (38-я минута видео 6-го урока):
-  
+
   function objectToQueryString(object) {
-    return Object.keys(object).map(function(key){
+    return Object.keys(object).map(function(key) {
       return key + '=' + object[key];
     }).join('&');
   }
-  
+
 </script>

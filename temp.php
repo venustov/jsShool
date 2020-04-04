@@ -2,6 +2,7 @@
   echo 'Hello, world!';
   echo 'Hello, git';
   echo 'Congratulate';
+echo 'Спать не пора уже?';
 ?>
 
 <script>

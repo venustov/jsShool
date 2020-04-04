@@ -1,10 +1,11 @@
 <?php 
   echo 'Hello, world!';
   echo 'Hello, git';
+  echo 'Congratulate';
 ?>
 
 <script>
-// это (код php выше) для тренировок по гиту, не более
+  // это (код php выше) для тренировок по гиту, не более
   function decToHex(n) {
     return Number(n).toString(16);
   }

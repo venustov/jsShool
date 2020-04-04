@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #e0e2e7;
+}
+
+h3,
+.users,
+#searchresults {
+  margin-left: 50px;
+}
+
+.col,
+.del_btn {
+  margin: 5px 0;
+  padding: 0 5px;
+  display: inline-block;
+  background: white;
+  cursor: default;
+}
+
+.hide {
+  display: none;
+}
+
+#add {
+  width: 150px;
+}
+
+#inputSearch {
+  width: 70px;
+}
+
+.btn {
+  margin: 5px 5px;
+  text-align: center;
+  border: 1px solid gray;
+  cursor: default;
+}
+
+.btn:hover {
+  background: orange;
+}
+
+#add,
+#inputSearch {
+  height: 19px;
+}
+
+#add,
+#inputValue,
+#inputSearch,
+#x {
+  display: inline-block;
+}
+
+#search {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.headerblock {
+  margin: 5px 5px 15px 20px;
+  padding: 10px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 550px;
+}
+
+.o-hide {
+  opacity: 0;
+}
+
+#x {
+  position: relative;
+  right: 6.5em;
+  cursor: default;
+}

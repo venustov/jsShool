@@ -1,0 +1,155 @@
+  .tableChess {
+    border: 4px double gray;
+    border-spacing: 0;
+    border-radius: 10px;
+  }
+
+  td.black {
+    width: 36px;
+    height: 36px;
+    background: gray;
+    text-align: center;
+  }
+
+  td.white {
+    width: 36px;
+    height: 36px;
+    background: #d6e9c6;
+    text-align: center;
+  }
+
+  #h1 {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+
+  #h8 {
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+  }
+
+  #a8 {
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+  }
+
+  #a1 {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+
+  #a2,
+  #a3,
+  #a4,
+  #a5,
+  #a6,
+  #a7 {
+    border-left: 1px solid gray;
+  }
+
+  #h2,
+  #h3,
+  #h4,
+  #h5,
+  #h6,
+  #h7 {
+    border-right: 1px solid gray;
+  }
+
+  #b1,
+  #c1,
+  #d1,
+  #e1,
+  #f1,
+  #g1 {
+    border-bottom: 1px solid gray;
+  }
+
+  #b8,
+  #c8,
+  #d8,
+  #e8,
+  #f8,
+  #g8 {
+    border-top: 1px solid gray;
+  }
+
+  .corner {
+    width: 18px;
+    height: 18px;
+  }
+
+  .left {
+    width: 18px;
+    height: 36px;
+    text-align: center;
+  }
+
+  .right {
+    width: 18px;
+    height: 36px;
+    text-align: center;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  .top {
+    width: 36px;
+    height: 18px;
+    text-align: center;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  .bottom {
+    width: 36px;
+    height: 18px;
+    text-align: center;
+  }
+
+  .queen {
+    background-position: -2% 30%;
+  }
+
+  .king {
+    background-position: 19% 30%;
+  }
+
+  .bishop {
+    background-position: 39% 30%;
+  }
+
+  .kNight {
+    background-position: 61% 30%;
+  }
+
+  .rook {
+    background-position: 81% 30%;
+  }
+
+  .pawn {
+    background-position: 102% -15%;
+  }
+
+  div.white {
+    background-image: url(img/white.png);
+  }
+
+  div.black {
+    background-image: url(img/black.png);
+  }
+
+  div.white,
+  div.black {
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 20px;
+    height: 36px;
+    background-size: 600%;
+  }

@@ -1,0 +1,44 @@
+  function min(num1, num2){
+    if(num1 > num2) return num2;
+    else if(num2 > num1) return num1;
+    else return 'числа равны';
+  }
+
+  function min(num1, num2){
+    return num1 > num2 ? num2 : num2 > num1 ? num1 : 'числа равны';
+  }
+  
+  console.log(min(0, 10)); // > 0 
+  console.log(min(0, -10)); // > -10
+
+**************************************************************
+
+  function countChar(str, char){
+    var count = 0;
+    for(var i = 0; i < str.length; i++){
+      str.toLowerCase().charAt(i) == char && count++;
+    }
+    return count;
+  }
+
+**************************************************************
+
+    function recursiveFactorial(n){
+        if(n == 0)
+            return 1;
+        else
+            return recursiveFactorial(n-1) * n;
+    }
+
+    var rf = recursiveFactorial(5);
+
+**************************************************************
+
+  function isEven(number){
+    var numberNegative = -number;
+    return (number == 0 ? 'чётное' : number == 1 ? 'нечётное' : number < 0 ? isEven(numberNegative) : isEven(number - 2));
+  }
+
+  function isEven(number){
+    return (number == 0 ? 'чётное' : number == 1 ? 'нечётное' : number < 0 ? isEven(number + 2) : isEven(number - 2));
+  }

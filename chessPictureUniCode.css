@@ -1,0 +1,306 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #e0e2e7;
+}
+
+h3 {
+  margin: 0 0 15px 10px;
+  padding: 30px 0 0 0;
+}
+
+.content {
+  /*  display: inline-block;*/
+  width: 450px;
+  min-height: 100%;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 0 25px white;
+}
+
+.tableChess {
+  border: 4px double gray;
+  border-spacing: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px #e0e2e7;
+}
+
+td.black,
+td.white {
+  cursor: default;
+}
+
+td.black {
+  width: 36px;
+  height: 36px;
+  background: gray;
+  text-align: center;
+  font-size: 26px;
+  transition: background 2s ease-out;
+}
+
+td.white {
+  width: 36px;
+  height: 36px;
+  background: #d6e9c6;
+  text-align: center;
+  font-size: 26px;
+  transition: background 2s ease-out;
+}
+
+.white.selected,
+.black.selected {
+  background: orange;
+}
+
+#h1 {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#h8 {
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+#a8 {
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+#a1 {
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#a2,
+#a3,
+#a4,
+#a5,
+#a6,
+#a7 {
+  border-left: 1px solid gray;
+}
+
+#h2,
+#h3,
+#h4,
+#h5,
+#h6,
+#h7 {
+  border-right: 1px solid gray;
+}
+
+#b1,
+#c1,
+#d1,
+#e1,
+#f1,
+#g1 {
+  border-bottom: 1px solid gray;
+}
+
+#b8,
+#c8,
+#d8,
+#e8,
+#f8,
+#g8 {
+  border-top: 1px solid gray;
+}
+
+.corner {
+  width: 18px;
+  height: 18px;
+}
+
+.left {
+  width: 18px;
+  height: 36px;
+  text-align: center;
+}
+
+.right {
+  width: 18px;
+  height: 36px;
+  text-align: center;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.top {
+  width: 36px;
+  height: 18px;
+  text-align: center;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.bottom {
+  width: 36px;
+  height: 18px;
+  text-align: center;
+}
+
+.queen {}
+
+.king {}
+
+.bishop {}
+
+.kNight {}
+
+.rook {}
+
+.pawn {}
+
+.leftBox {
+  float: left;
+}
+
+#elem {
+  width: 52px;
+  height: 32px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 2px 20px 0 10px;
+  text-align: center;
+  font-size: 26px;
+  box-shadow: 0 0 10px 5px #e0e2e7;
+}
+
+.fa-trash-restore {
+  margin: 20px 0 0 10px;
+  color: burlywood;
+  transition: color 1s ease-out;
+}
+
+.fa-trash-restore:hover {
+  color: darkorange;
+}
+
+div.white {
+  margin-bottom: 20px;
+}
+
+div.black {
+  margin-top: 20px;
+}
+
+div.white,
+div.black {
+  height: 36px;
+  margin-left: 6px;
+}
+
+div.white.trash,
+div.black.trash {
+  cursor: default;
+}
+
+.trashCell {
+  display: inline-block;
+  font-size: 26px;
+  transition: background 0.6s ease-out;
+}
+
+.trashCell:hover {
+  background: burlywood;
+}
+
+.o-hide {
+  visibility: hidden;
+  transition: visibility 1s ease-out;
+}
+
+.tooltip {
+  border-bottom: 1px dotted #000000;
+  color: #000000;
+  outline: none;
+  cursor: help;
+  text-decoration: none;
+  position: relative;
+}
+
+.tooltip span {
+  margin-left: -999em;
+  position: absolute;
+}
+
+.tooltip:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  left: 4.4em;
+  top: 3.5em;
+  z-index: 99;
+  margin-left: 0;
+  width: 250px;
+}
+
+.tooltip:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+
+.tooltip:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+
+.classic {
+  padding: 0.8em 0.2em 0.8em 1em;
+}
+
+.custom {
+  padding: 0.5em 0.8em 0.8em 2em;
+}
+
+<strong > * html</strong > a:hover {
+  background: transparent;
+}
+
+.info {
+  background: #FFFFAA;
+  border: 1px solid #FFAD33;
+}
+
+.critical {
+  background: #FFCCAA;
+  border: 1px solid #FF3334;
+}
+
+.help {
+  background: #9FDAEE;
+  border: 1px solid #2BB0D7;
+}
+
+.classic {
+  background: #9FDAEE;
+  border: 1px solid #2BB0D7;
+  border-radius: 5px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.warning {
+  background: #FFFFAA;
+  border: 1px solid #FFAD33;
+}

@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<div id='users' class='users'></div>
+<div id='users' class='users'><?php echo 'Hello, world!'</div>
 
 <script language="javascript" src="addressBook.js" type="text/javascript"></script>
 

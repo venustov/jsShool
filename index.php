@@ -19,14 +19,7 @@
     </div>
   </div>
 
-<<<<<<< Updated upstream
   <div id='users' class='users'></div>
-=======
-  <div id='users' class='users'><?php 
-  echo 'Hello, world!';
-    echo 'Вот это да!';
-  ?></div>
->>>>>>> Stashed changes
 
   <script language="javascript" src="addressBook.js" type="text/javascript"></script>
 

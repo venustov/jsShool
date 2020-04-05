@@ -6,6 +6,8 @@ echo 'Спать не пора уже?';
 echo 'Сегодня пораньше пойдём спать!';
 echo 'Hello, git rebase!';
 echo 'Здравствуй гит ребэйз снова!';
+echo 'Hello, git cherry-pick';
+echo 'Hello, squash';
 ?>
 
 <script>

@@ -4,6 +4,7 @@
   echo 'Congratulate';
 echo 'Спать не пора уже?';
 echo 'Сегодня пораньше пойдём спать!';
+echo 'Hello, git rebase!';
 ?>
 
 <script>

@@ -3,6 +3,7 @@
   echo 'Hello, git';
   echo 'Congratulate';
 echo 'Спать не пора уже?';
+echo 'Сегодня пораньше пойдём спать!';
 ?>
 
 <script>
